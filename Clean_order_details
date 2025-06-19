@@ -1,0 +1,25 @@
+-- View and clean order_details table
+SELECT * FROM order_details;
+DESCRIBE order_details;
+
+-- Turn off safe updates
+SET SQL_SAFE_UPDATES = 0;
+
+-- Fix formatting
+UPDATE order_details SET order_time = REPLACE(order_time, '/', ':');
+
+-- Fix and format date
+UPDATE order_details 
+SET order_date = 
+CASE 
+WHEN LENGTH(SUBSTRING_INDEX(order_date, '/', -1)) = 2
+  THEN CONCAT(SUBSTRING_INDEX(order_date, '/', 2), '/20', SUBSTRING_INDEX(order_date, '/', -1))
+ELSE order_date
+END;
+
+UPDATE order_details
+SET order_date = DATE_FORMAT(STR_TO_DATE(order_date, '%m/%d/%Y'), '%Y-%m-%d');
+
+-- Convert order_time column
+ALTER TABLE order_details
+MODIFY COLUMN order_time TIME;
