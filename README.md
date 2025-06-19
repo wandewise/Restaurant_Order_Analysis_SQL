@@ -29,15 +29,15 @@ This SQL project explores restaurant data by analyzing the menu_items and order_
 
 📊 Key Questions Answered
 
-• What are the least and most expensive menu items?
+- What are the least and most expensive menu items?
 
-• How many dishes are in each category?
+- How many dishes are in each category?
 
-• How many orders were placed each day?
+- How many orders were placed each day?
 
-• What were the top 5 highest-spending orders?
+- What were the top 5 highest-spending orders?
 
-• What dish was ordered the most?
+- What dish was ordered the most?
  
 
 
@@ -51,11 +51,11 @@ This SQL project explores restaurant data by analyzing the menu_items and order_
 
 🧼 Cleaning Tasks Performed
 
-• Standardized inconsistent order_time entries (e.g., changed / to :)
+- Standardized inconsistent order_time entries (e.g., changed / to :)
 
-• Reformatted order_date into YYYY-MM-DD
+- Reformatted order_date into YYYY-MM-DD
 
-• Converted order_time from string to SQL TIME format
+- Converted order_time from string to SQL TIME format
 
 🔗 Dataset Source
 
@@ -64,11 +64,11 @@ If you’d like to explore the raw data, search for restaurant order datasets on
 
 🛠 Tools Used
 
-• SQL (MySQL syntax)
+- SQL (MySQL syntax)
 
-• GitHub for version control
-
-• VS Code / DBMS tools for running queries
+- GitHub for version control
+  
+- VS Code / DBMS tools for running queries
 
 👤 Author
 
