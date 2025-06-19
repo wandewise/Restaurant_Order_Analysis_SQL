@@ -73,8 +73,11 @@ If you’d like to explore the raw data, search for restaurant order datasets on
 👤 Author
 
 Akinwande Wasiu Olanrewaju
+
 🎓 BSc in Transport Planning and Management
+
 📊 Junior Data Analyst
+
 🔗 [LinkedIn](https://www.linkedin.com/in/akinwande-wasiu-b49b62327)| [GitHub](https://github.com/wandewise)
 
 ## 🛠 Tech Stack
