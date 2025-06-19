@@ -1,0 +1,22 @@
+-- View and analyze menu_items table
+SELECT * FROM menu_items;
+SELECT COUNT(*) FROM menu_items;
+
+-- Price range analysis
+SELECT * FROM menu_items ORDER BY price ASC;
+SELECT * FROM menu_items ORDER BY price DESC;
+
+-- Italian dishes insights
+SELECT COUNT(*) FROM menu_items WHERE category = 'Italian';
+SELECT * FROM menu_items WHERE category = 'Italian' ORDER BY price ASC;
+SELECT * FROM menu_items WHERE category = 'Italian' ORDER BY price DESC;
+
+-- Dishes per category
+SELECT category, COUNT(item_name) AS num_dishes
+FROM menu_items
+GROUP BY category;
+
+-- Average price per category
+SELECT category, ROUND(AVG(price)) AS avg_price, COUNT(item_name) AS num_dishes
+FROM menu_items
+GROUP BY category;
