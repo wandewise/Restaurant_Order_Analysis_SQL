@@ -44,9 +44,9 @@ This SQL project explores restaurant data by analyzing the menu_items and order_
 ## ✅ Key Insights
 
 - The highest-spending order consisted mainly of Italian dishes.
-- 
+ 
 - A few orders had more than 12 items, which may indicate bulk or group purchases.
-- 
+  
 - Some items appear disproportionately in high-value orders.
 
 🧼 Cleaning Tasks Performed
