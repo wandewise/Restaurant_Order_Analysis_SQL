@@ -1,0 +1,5 @@
+CREATE DATABASE Restaurant_db;
+USE Restaurant_db;
+
+ALTER TABLE menu_items
+RENAME COLUMN ï»¿menu_item_id TO menu_item_id;
