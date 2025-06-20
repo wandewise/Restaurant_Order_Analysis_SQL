@@ -3,7 +3,7 @@
 
 📌 Overview
 
-This SQL project explores restaurant data by analyzing the menu_items and order_details tables. The analysis covers data cleaning, price insights, category patterns, and identifying top-spending customers. It provides a solid demonstration of data manipulation and business intelligence using SQL.
+This SQL project explores restaurant data by analyzing the Menu Items and Order Details tables. The analysis covers data cleaning, price insights, category patterns, and identifying top-spending customers. It provides a solid demonstration of data manipulation and business intelligence using SQL.
 
 
 
